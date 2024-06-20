@@ -1,5 +1,7 @@
 package millionare;
 
-public class Card {
+public abstract class Card {
+	public abstract int rankCompareTo(Card c);
 
+	public abstract boolean suitEquals(Card c);
 }
